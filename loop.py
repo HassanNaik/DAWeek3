@@ -45,7 +45,6 @@ total = sum(range(1, 101))
 print(total)
 #elliot
 
-
 # Activity 1
 
 # Create a for loop that prints “hello world” 13 times.
@@ -76,8 +75,6 @@ for x in Block1:
      for y in Block2:
           print(f"{x} x {y} = { x * y}")
 
-
-
 # Activity 3
 
 # Write a small log-in program that asks a user to enter a password to continue.
@@ -91,17 +88,16 @@ for x in Block1:
 answer = input("Enter Passowrd ")
 attempt = 0
 
-
-while answer != "Password" and attempt < 2:
+while answer != "Password" and attempt < 3:
     print("incorrect")
     attempt += 1
     answer  = input("Enter Passowrd ")
-if attempt == 2:
+if attempt == 3:
         print("Too many failed attmepts, you are locked out! Have a nice day :)")
 
 else:
     print("correct")
 
 
-   
+
  
